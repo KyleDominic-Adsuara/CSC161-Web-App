@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home</title>
+    <link rel="shortcut icon" type="image/png" href="{{url_for('static',filename='panimalay-196x196.png')}}">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+	  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap">
+
+	  <style type="text/css">
+        *{margin: 0;}
+
+        body{
+            background: url(https://images.pexels.com/photos/1612362/pexels-photo-1612362.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260) no-repeat;
+            background-size: cover;
+            height: 100vh;
+            background-position: left;
+        }
+
+        .header{
+            width: 100%;
+            background-color: rgba(0,0,0,0.2);
+        }
+
+        .header ul{
+            text-align: none;
+        }
+
+        .header ul li{
+            list-style: none;
+            display: inline-block;
+        }
+
+        .header ul li a{
+            display: block;
+            text-decoration: none;
+            color: #fff;
+            font-size: 20px;
+            font-family: 'Raleway', sans-serif;
+            letter-spacing: 2px;
+            font-weight: 600;
+            padding: 25px;
+            transition: all ease 0.5;
+        }
+
+        .header ul li a:hover{
+            background-color: #211b4385;
+        }
+
+
+body{margin-top:0px;}
+
+    </style>
+  </head>
+{% extends "layout.html" %}
+  {% if title %}
+    <title>StudentDB - {{ title }}</title>
+  {% else %}
+    <title>Student Database</title>
+  {% endif %}
+
+{% block body %}
+
+
+{% for type in typeDetails %}
+  <body>
+
+  <div class="header">
+    <ul>
+        <li><a href="/logout" style="margin-left: -40px;">LOGOUT</a></li>
+        <li><a href="/login" style="margin-left">HOME</a></li>
+    </ul>
+  </div>
+
+
+    <div class="invisible">...</div>
+  <div class="invisible">...</div>
+
+  <div class="container bootstrap snippets bootdey">
+
+    <!-- upper section -->
+		<div class="row justify-content-md-left">
+    	<div class="col col-lg-2">
+
+
+			{% if type == 1 %}
+					<h3 style="font-size:300%; font-family:Century Gothic;">Welcome, Admin!</h3>
+				<hr>
+
+				 <div class="panel panel-default" style="background-color: white;">
+
+			<ul class="nav flex-column navbar-light">
+
+
+				<ul class="nav nav-pills nav-stacked">
+
+					<li><a href="/admin_student_list"><i class="glyphicon glyphicon-list"></i> Student List</a></li>
+
+
+					<li><a href="/admin_course_list"><i class="glyphicon glyphicon-list-alt"></i> Course List</a></li>
+
+					<li><a href="/admin_prof_list"><i class="glyphicon glyphicon-briefcase"></i> Professor List</a></li>
+
+					<li><a href="/admin_dept_list"><i class="glyphicon glyphicon-folder-open"></i> Department List</a></li>
+
+				{% endif %}
+				</ul>
+
+
+
+				{% if type == 2 %}
+				<div class="container">
+				<div class="row justify-content-lg-left">
+    			<div class="col col-lg-12">
+
+  			<h3 style="font-size:300%; font-family:Century Gothic;">Welcome, Student!</h3>
+				<hr>
+
+				 <div class="panel panel-default" style="background-color: white;">
+
+			<ul class="nav flex-column navbar-light">
+
+
+				<ul class="nav nav-pills nav-stacked">
+
+					<li><a href="/student_profile/{{ user_id }}"><i class="glyphicon glyphicon-user"></i> Profile</a></li>
+
+				<hr>
+
+					<li><a href="/student_course_sel/{{ user_id }}"><i class="glyphicon glyphicon-list-alt"></i> Course</a></li>
+
+
+				{% endif %}
+
+				</ul>
+
+
+
+				{% if type == 3 %}
+
+				<div class="container">
+					<div class="row justify-content-lg-left">
+    			<div class="col col-lg-12">
+
+					<h3 style="font-size:300%; font-family:Century Gothic;">Welcome, Professor!</h3>
+				<hr>
+
+				 <div class="panel panel-default" style="background-color: white;">
+
+				<ul class="nav flex-column navbar-light">
+
+
+				<ul class="nav nav-pills nav-stacked">
+
+					<li><a href="/prof_profile/{{ user_id }}"><i class="glyphicon glyphicon-user"></i> Profile</a></li>
+
+				<hr>
+
+					<li><a href="/prof_course_sel/{{ user_id }}"><i class="glyphicon glyphicon-list-alt"></i> Course</a></li>
+
+				<hr>
+					<li><a href="/prof_student_list/{{ user_id }}"><i class="glyphicon glyphicon-list"></i> Student List</a></li>
+
+				{% endif %}
+			</ul>
+		</div>
+		<div class="col-lg-10">
+        {% for message in get_flashed_messages()%}
+     	 <div class="alert alert-success alert-dismissible fade show" role="alert">
+     	 	<h6><strong>{{message}}</strong></h6>
+      			<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+      	  		<span aria-hidden="true">&times;</span>
+          		</button>
+     	 </div>
+      {% endfor%}
+    	</div>
+
+	</div>
+</div>
+{% endfor %}
+
+{% endblock %}
+
+
+

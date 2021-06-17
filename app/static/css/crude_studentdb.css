@@ -1,0 +1,2877 @@
+/*
+	@name crude_studentdb
+*/
+/* Only edit this if you know what you are doing! */
+body { margin: 0px; padding: 0px; font-family:"Arial"; overflow-x:hidden; }
+
+/* Only edit this if you know what you are doing! */
+img { position: absolute; display: block; margin: 0px; border: none; padding: 0px; }
+
+/* Only edit this if you know what you are doing! */
+div { position: absolute; }
+
+#content-container { display: block; position: relative; width: 1440px; width: 1440px;  overflow: hidden; display: block;  margin-left: auto; margin-right: auto;  }
+
+#content-container > div{ position: relative; top:inherit; }
+#page_student_login_ek1 {
+	top: 0px;
+	left: 0px;
+	width: 1440px;
+	height: 1024px;
+}
+
+#_bg__student_login_ek2 {
+	top: 0px;
+	left: 0px;
+	width: 1440px;
+	height: 1024px;
+	background:rgba(255,255,255,1);
+}
+
+
+#download__8__1 {
+	top: 0px;
+	left: 0px;
+	width: 1440px;
+	height: 1024px;
+}
+
+
+#rectangle_4 {
+	opacity:0.5;
+	top: 790px;
+	left: 304px;
+	width: 1067px;
+	height: 234px;
+	-ms-border-radius: 76px;
+	-o-border-radius: 76px;
+	-moz-border-radius: 76px;
+	-webkit-border-radius: 76px;
+	border-radius: 76px;
+	background:rgba(212,215,220,1);
+}
+
+
+#rectangle_6 {
+	opacity:0.5;
+	top: 0px;
+	left: 0px;
+	width: 1440px;
+	height: 109px;
+	background:rgba(212,215,220,1);
+}
+
+
+#logout {
+	top: 0px;
+	left: 1295px;
+	width: 195px;
+	height: 102px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 40px;
+	text-align: left;
+	color:#000000;
+}
+
+
+#rectangle_5 {
+	opacity:0.8;
+	top: 847px;
+	left: 381px;
+	width: 914px;
+	height: 91px;
+	background:rgba(255,255,255,1);
+}
+
+
+#welcome_to_the_most_basic_database {
+	top: 860px;
+	left: 421px;
+	width: 904px;
+	height: 99px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 50px;
+	text-align: left;
+	color:#000000;
+}
+
+
+#rectangle_10 {
+	opacity:0.5;
+	top: 138px;
+	left: 0px;
+	width: 273px;
+	height: 884px;
+	background:rgba(212,215,220,1);
+}
+
+
+#rectangle_3 {
+	top: 392px;
+	left: 61px;
+	width: 140px;
+	height: 60px;
+	background:rgba(212,215,220,1);
+}
+
+
+#_profile {
+	top: 397px;
+	left: 79px;
+	width: 157px;
+	height: 78px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 40px;
+	text-align: left;
+	color:#000000;
+}
+
+
+#_rectangle_7 {
+	top: 550px;
+	left: 61px;
+	width: 140px;
+	height: 60px;
+	background:rgba(212,215,220,1);
+}
+
+
+#course {
+	top: 558px;
+	left: 63px;
+	width: 163px;
+	height: 73px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 40px;
+	text-align: left;
+	color:#000000;
+}
+
+
+#image_1 {
+	top: 13px;
+	left: 61px;
+	width: 70px;
+	height: 83px;
+}
+
+#page_student_course_ek1 {
+	top: 0px;
+	left: 0px;
+	width: 1440px;
+	height: 1024px;
+}
+
+#_bg__student_course_ek2 {
+	top: 0px;
+	left: 0px;
+	width: 1440px;
+	height: 1024px;
+	background:rgba(255,255,255,1);
+}
+
+
+#download__8__1_ek1 {
+	top: 0px;
+	left: 0px;
+	width: 1440px;
+	height: 1024px;
+}
+
+
+#rectangle_6_ek1 {
+	opacity:0.5;
+	top: 0px;
+	left: 0px;
+	width: 1440px;
+	height: 109px;
+	background:rgba(212,215,220,1);
+}
+
+
+#rectangle_11 {
+	top: 361px;
+	left: 561px;
+	width: 522px;
+	height: 72px;
+	background:rgba(241.36,243.29,246.5,1);
+}
+
+
+#logout_ek1 {
+	top: 0px;
+	left: 1295px;
+	width: 195px;
+	height: 102px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 40px;
+	text-align: left;
+	color:#000000;
+}
+
+
+#rectangle_10_ek1 {
+	opacity:0.5;
+	top: 138px;
+	left: 0px;
+	width: 273px;
+	height: 884px;
+	background:rgba(212,215,220,1);
+}
+
+
+#rectangle_3_ek1 {
+	top: 392px;
+	left: 61px;
+	width: 140px;
+	height: 60px;
+	background:rgba(212,215,220,1);
+}
+
+
+#_profile_ek1 {
+	top: 397px;
+	left: 79px;
+	width: 157px;
+	height: 78px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 40px;
+	text-align: left;
+	color:#000000;
+}
+
+#group_12 {
+	top: 550px;
+	left: 61px;
+	width: 140px;
+	height: 60px;
+}
+
+#rectangle_7_ek1 {
+	top: 0px;
+	left: 0px;
+	width: 140px;
+	height: 60px;
+	background:rgba(94,107,227,1);
+}
+
+
+#course_ek1 {
+	top: 8px;
+	left: 2px;
+	width: 163px;
+	height: 73px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 40px;
+	text-align: left;
+	color:#FFF9F9;
+}
+
+
+#_image_1_ek1 {
+	top: 13px;
+	left: 61px;
+	width: 70px;
+	height: 83px;
+}
+
+
+#select_your_course {
+	top: 207px;
+	left: 518px;
+	width: 738px;
+	height: 152px;
+	overflow: hidden;
+	font-family: Itim;
+	font-size: 80px;
+	text-align: left;
+	color:#000000;
+}
+
+#page_prof_course_ek1 {
+	top: 0px;
+	left: 0px;
+	width: 1440px;
+	height: 1024px;
+}
+
+#_bg__prof_course_ek2 {
+	top: 0px;
+	left: 0px;
+	width: 1440px;
+	height: 1024px;
+	background:rgba(255,255,255,1);
+}
+
+
+#download__8__1_ek2 {
+	top: 0px;
+	left: 0px;
+	width: 1440px;
+	height: 1024px;
+}
+
+
+#rectangle_6_ek2 {
+	opacity:0.5;
+	top: 0px;
+	left: 0px;
+	width: 1440px;
+	height: 109px;
+	background:rgba(212,215,220,1);
+}
+
+
+#rectangle_11_ek1 {
+	top: 361px;
+	left: 561px;
+	width: 522px;
+	height: 72px;
+	background:rgba(241.36,243.29,246.5,1);
+}
+
+
+#logout_ek2 {
+	top: 0px;
+	left: 1295px;
+	width: 195px;
+	height: 102px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 40px;
+	text-align: left;
+	color:#000000;
+}
+
+
+#rectangle_10_ek2 {
+	opacity:0.5;
+	top: 138px;
+	left: 0px;
+	width: 273px;
+	height: 884px;
+	background:rgba(212,215,220,1);
+}
+
+
+#rectangle_3_ek2 {
+	top: 392px;
+	left: 61px;
+	width: 140px;
+	height: 60px;
+	background:rgba(212,215,220,1);
+}
+
+
+#_profile_ek2 {
+	top: 397px;
+	left: 79px;
+	width: 157px;
+	height: 78px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 40px;
+	text-align: left;
+	color:#000000;
+}
+
+#group_12_ek1 {
+	top: 550px;
+	left: 61px;
+	width: 140px;
+	height: 60px;
+}
+
+#rectangle_7_ek2 {
+	top: 0px;
+	left: 0px;
+	width: 140px;
+	height: 60px;
+	background:rgba(94,107,227,1);
+}
+
+
+#course_ek2 {
+	top: 8px;
+	left: 2px;
+	width: 163px;
+	height: 73px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 40px;
+	text-align: left;
+	color:#FFF9F9;
+}
+
+
+#_image_1_ek2 {
+	top: 13px;
+	left: 61px;
+	width: 70px;
+	height: 83px;
+}
+
+
+#select_your_course_ek1 {
+	top: 207px;
+	left: 518px;
+	width: 738px;
+	height: 152px;
+	overflow: hidden;
+	font-family: Itim;
+	font-size: 80px;
+	text-align: left;
+	color:#000000;
+}
+
+
+#rectangle_11_ek2 {
+	top: 708px;
+	left: 56px;
+	width: 134px;
+	height: 62px;
+	background:rgba(212,215,220,1);
+}
+
+
+#list {
+	top: 708px;
+	left: 94px;
+	width: 148px;
+	height: 90px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 40px;
+	text-align: left;
+	color:#000000;
+}
+
+#page_student_profile_ek1 {
+	top: 0px;
+	left: 0px;
+	width: 1440px;
+	height: 1024px;
+}
+
+#_bg__student_profile_ek2 {
+	top: 0px;
+	left: 0px;
+	width: 1440px;
+	height: 1024px;
+	background:rgba(255,255,255,1);
+}
+
+
+#download__8__1_ek3 {
+	top: 0px;
+	left: 0px;
+	width: 1440px;
+	height: 1024px;
+}
+
+
+#rectangle_6_ek3 {
+	opacity:0.5;
+	top: 0px;
+	left: 0px;
+	width: 1440px;
+	height: 109px;
+	background:rgba(212,215,220,1);
+}
+
+
+#logout_ek3 {
+	top: 0px;
+	left: 1295px;
+	width: 195px;
+	height: 102px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 40px;
+	text-align: left;
+	color:#000000;
+}
+
+
+#rectangle_10_ek3 {
+	opacity:0.5;
+	top: 138px;
+	left: 0px;
+	width: 273px;
+	height: 884px;
+	background:rgba(212,215,220,1);
+}
+
+#group_2 {
+	top: 392px;
+	left: 62px;
+	width: 150px;
+	height: 60px;
+}
+
+#rectangle_3_ek3 {
+	top: 0px;
+	left: 0px;
+	width: 140px;
+	height: 60px;
+	background:rgba(93.79,107.15,227.37,1);
+}
+
+
+#profile_ek3 {
+	top: 5px;
+	left: 18px;
+	width: 157px;
+	height: 78px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 40px;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#rectangle_7_ek3 {
+	top: 594px;
+	left: 62px;
+	width: 140px;
+	height: 60px;
+	background:rgba(212,215,220,1);
+}
+
+
+#course_ek3 {
+	top: 602px;
+	left: 64px;
+	width: 163px;
+	height: 73px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 40px;
+	text-align: left;
+	color:#000000;
+}
+
+#group_1 {
+	top: 322px;
+	left: 398px;
+	width: 769px;
+	height: 70px;
+}
+
+#rectangle_14 {
+	opacity:0.5;
+	top: 0px;
+	left: 0px;
+	width: 769px;
+	height: 70px;
+	background:rgba(212,215,220,1);
+}
+
+
+#joey_abbe_abonitalla {
+	top: 15px;
+	left: 154px;
+	width: 527px;
+	height: 90px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 50px;
+	text-align: left;
+	color:#000000;
+}
+
+
+#rectangle_14_ek1 {
+	opacity:0.5;
+	top: 840px;
+	left: 735px;
+	width: 111.21px;
+	height: 73px;
+	background:rgba(212,215,220,1);
+}
+
+
+#edit {
+	top: 840px;
+	left: 752.79px;
+	width: 141.21px;
+	height: 108px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 50px;
+	text-align: left;
+	color:#000000;
+}
+
+#group_4 {
+	top: 452px;
+	left: 398px;
+	width: 769px;
+	height: 70px;
+}
+
+#rectangle_14_ek2 {
+	opacity:0.5;
+	top: 0px;
+	left: 0px;
+	width: 769px;
+	height: 70px;
+	background:rgba(212,215,220,1);
+}
+
+
+#joey_gmail_com {
+	top: 10px;
+	left: 177px;
+	width: 504px;
+	height: 95px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 50px;
+	text-align: left;
+	color:#000000;
+}
+
+#group_5 {
+	top: 577px;
+	left: 398px;
+	width: 769px;
+	height: 70px;
+}
+
+#rectangle_14_ek3 {
+	opacity:0.5;
+	top: 0px;
+	left: 0px;
+	width: 769px;
+	height: 70px;
+	background:rgba(212,215,220,1);
+}
+
+
+#_2018_2300 {
+	top: 9px;
+	left: 276px;
+	width: 282px;
+	height: 87px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 50px;
+	text-align: left;
+	color:#000000;
+}
+
+#group_10 {
+	top: 708px;
+	left: 398px;
+	width: 769px;
+	height: 70px;
+}
+
+#rectangle_14_ek4 {
+	opacity:0.5;
+	top: 0px;
+	left: 0px;
+	width: 769px;
+	height: 70px;
+	background:rgba(212,215,220,1);
+}
+
+
+#_3_year {
+	top: 0px;
+	left: 314px;
+	width: 244px;
+	height: 96px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 50px;
+	text-align: left;
+	color:#000000;
+}
+
+
+#hello_user {
+	top: 171px;
+	left: 629px;
+	width: 484px;
+	height: 151px;
+	overflow: hidden;
+	font-family: Itim;
+	font-size: 80px;
+	text-align: left;
+	color:#000000;
+}
+
+
+#_image_1_ek3 {
+	top: 13px;
+	left: 61px;
+	width: 70px;
+	height: 83px;
+}
+
+#page_prof_profile_ek1 {
+	top: 0px;
+	left: 0px;
+	width: 1440px;
+	height: 1024px;
+}
+
+#_bg__prof_profile_ek2 {
+	top: 0px;
+	left: 0px;
+	width: 1440px;
+	height: 1024px;
+	background:rgba(255,255,255,1);
+}
+
+
+#download__8__1_ek4 {
+	top: 0px;
+	left: 0px;
+	width: 1440px;
+	height: 1024px;
+}
+
+
+#rectangle_6_ek4 {
+	opacity:0.5;
+	top: 0px;
+	left: 0px;
+	width: 1440px;
+	height: 109px;
+	background:rgba(212,215,220,1);
+}
+
+
+#logout_ek4 {
+	top: 0px;
+	left: 1295px;
+	width: 195px;
+	height: 102px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 40px;
+	text-align: left;
+	color:#000000;
+}
+
+
+#rectangle_10_ek4 {
+	opacity:0.5;
+	top: 138px;
+	left: 0px;
+	width: 273px;
+	height: 884px;
+	background:rgba(212,215,220,1);
+}
+
+#group_2_ek1 {
+	top: 392px;
+	left: 62px;
+	width: 150px;
+	height: 60px;
+}
+
+#rectangle_3_ek4 {
+	top: 0px;
+	left: 0px;
+	width: 140px;
+	height: 60px;
+	background:rgba(93.79,107.15,227.37,1);
+}
+
+
+#profile_ek4 {
+	top: 5px;
+	left: 18px;
+	width: 157px;
+	height: 78px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 40px;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#rectangle_7_ek4 {
+	top: 567px;
+	left: 62px;
+	width: 140px;
+	height: 60px;
+	background:rgba(212,215,220,1);
+}
+
+
+#course_ek4 {
+	top: 575px;
+	left: 64px;
+	width: 163px;
+	height: 73px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 40px;
+	text-align: left;
+	color:#000000;
+}
+
+#group_1_ek1 {
+	top: 322px;
+	left: 398px;
+	width: 769px;
+	height: 70px;
+}
+
+#rectangle_14_ek5 {
+	opacity:0.5;
+	top: 0px;
+	left: 0px;
+	width: 769px;
+	height: 70px;
+	background:rgba(212,215,220,1);
+}
+
+
+#joey_abbe_abonitalla_ek1 {
+	top: 15px;
+	left: 154px;
+	width: 527px;
+	height: 90px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 50px;
+	text-align: left;
+	color:#000000;
+}
+
+
+#rectangle_14_ek6 {
+	opacity:0.5;
+	top: 840px;
+	left: 735px;
+	width: 111.21px;
+	height: 73px;
+	background:rgba(212,215,220,1);
+}
+
+
+#edit_ek1 {
+	top: 840px;
+	left: 752.79px;
+	width: 141.21px;
+	height: 108px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 50px;
+	text-align: left;
+	color:#000000;
+}
+
+#group_4_ek1 {
+	top: 452px;
+	left: 398px;
+	width: 769px;
+	height: 70px;
+}
+
+#rectangle_14_ek7 {
+	opacity:0.5;
+	top: 0px;
+	left: 0px;
+	width: 769px;
+	height: 70px;
+	background:rgba(212,215,220,1);
+}
+
+
+#joey_gmail_com_ek1 {
+	top: 10px;
+	left: 177px;
+	width: 504px;
+	height: 95px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 50px;
+	text-align: left;
+	color:#000000;
+}
+
+
+#hello_professor {
+	top: 172px;
+	left: 471px;
+	width: 668px;
+	height: 143px;
+	overflow: hidden;
+	font-family: Itim;
+	font-size: 80px;
+	text-align: left;
+	color:#000000;
+}
+
+
+#_image_1_ek4 {
+	top: 13px;
+	left: 61px;
+	width: 70px;
+	height: 83px;
+}
+
+
+#rectangle_11_ek3 {
+	top: 741px;
+	left: 65px;
+	width: 134px;
+	height: 62px;
+	background:rgba(212,215,220,1);
+}
+
+
+#list_ek1 {
+	top: 741px;
+	left: 103px;
+	width: 148px;
+	height: 90px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 40px;
+	text-align: left;
+	color:#000000;
+}
+
+#page_student_profile_edit_ek1 {
+	top: 0px;
+	left: 0px;
+	width: 1440px;
+	height: 1024px;
+}
+
+#_bg__student_profile_edit_ek2 {
+	top: 0px;
+	left: 0px;
+	width: 1440px;
+	height: 1024px;
+	background:rgba(255,255,255,1);
+}
+
+
+#download__8__1_ek5 {
+	top: 0px;
+	left: 0px;
+	width: 1440px;
+	height: 1024px;
+}
+
+
+#rectangle_6_ek5 {
+	opacity:0.5;
+	top: 0px;
+	left: 0px;
+	width: 1440px;
+	height: 109px;
+	background:rgba(212,215,220,1);
+}
+
+
+#logout_ek5 {
+	top: 0px;
+	left: 1295px;
+	width: 195px;
+	height: 102px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 40px;
+	text-align: left;
+	color:#000000;
+}
+
+
+#rectangle_10_ek5 {
+	opacity:0.5;
+	top: 138px;
+	left: 0px;
+	width: 273px;
+	height: 884px;
+	background:rgba(212,215,220,1);
+}
+
+#group_2_ek2 {
+	top: 392px;
+	left: 62px;
+	width: 150px;
+	height: 60px;
+}
+
+#rectangle_3_ek5 {
+	top: 0px;
+	left: 0px;
+	width: 140px;
+	height: 60px;
+	background:rgba(93.79,107.15,227.37,1);
+}
+
+
+#profile_ek5 {
+	top: 5px;
+	left: 18px;
+	width: 157px;
+	height: 78px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 40px;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#rectangle_7_ek5 {
+	top: 594px;
+	left: 62px;
+	width: 140px;
+	height: 60px;
+	background:rgba(212,215,220,1);
+}
+
+
+#course_ek5 {
+	top: 602px;
+	left: 64px;
+	width: 163px;
+	height: 73px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 40px;
+	text-align: left;
+	color:#000000;
+}
+
+#group_1_ek2 {
+	top: 322px;
+	left: 398px;
+	width: 769px;
+	height: 70px;
+}
+
+#rectangle_14_ek8 {
+	opacity:0.5;
+	top: 0px;
+	left: 0px;
+	width: 769px;
+	height: 70px;
+	background:rgba(241,243,246,1);
+}
+
+
+#rectangle_14_ek9 {
+	opacity:0.5;
+	top: 840px;
+	left: 735px;
+	width: 111.21px;
+	height: 73px;
+	background:rgba(212,215,220,1);
+}
+
+
+#save {
+	top: 840px;
+	left: 735px;
+	width: 141.21px;
+	height: 108px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 50px;
+	text-align: left;
+	color:#000000;
+}
+
+#group_4_ek2 {
+	top: 452px;
+	left: 398px;
+	width: 769px;
+	height: 70px;
+}
+
+#rectangle_14_ek10 {
+	opacity:0.5;
+	top: 0px;
+	left: 0px;
+	width: 769px;
+	height: 70px;
+	background:rgba(255,255,255,1);
+}
+
+#group_5_ek1 {
+	top: 577px;
+	left: 398px;
+	width: 769px;
+	height: 70px;
+}
+
+#rectangle_14_ek11 {
+	opacity:0.5;
+	top: 0px;
+	left: 0px;
+	width: 769px;
+	height: 70px;
+	background:rgba(255,255,255,1);
+}
+
+#group_10_ek1 {
+	top: 708px;
+	left: 398px;
+	width: 769px;
+	height: 70px;
+}
+
+#rectangle_14_ek12 {
+	opacity:0.5;
+	top: 0px;
+	left: 0px;
+	width: 769px;
+	height: 70px;
+	background:rgba(255,255,255,1);
+}
+
+
+#edit_user {
+	top: 171px;
+	left: 629px;
+	width: 484px;
+	height: 151px;
+	overflow: hidden;
+	font-family: Itim;
+	font-size: 80px;
+	text-align: left;
+	color:#000000;
+}
+
+
+#_image_1_ek5 {
+	top: 13px;
+	left: 61px;
+	width: 70px;
+	height: 83px;
+}
+
+#page_prof_profile_edit_ek1 {
+	top: 0px;
+	left: 0px;
+	width: 1440px;
+	height: 1024px;
+}
+
+#_bg__prof_profile_edit_ek2 {
+	top: 0px;
+	left: 0px;
+	width: 1440px;
+	height: 1024px;
+	background:rgba(255,255,255,1);
+}
+
+
+#download__8__1_ek6 {
+	top: 0px;
+	left: 0px;
+	width: 1440px;
+	height: 1024px;
+}
+
+
+#rectangle_6_ek6 {
+	opacity:0.5;
+	top: 0px;
+	left: 0px;
+	width: 1440px;
+	height: 109px;
+	background:rgba(212,215,220,1);
+}
+
+
+#logout_ek6 {
+	top: 0px;
+	left: 1295px;
+	width: 195px;
+	height: 102px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 40px;
+	text-align: left;
+	color:#000000;
+}
+
+
+#rectangle_10_ek6 {
+	opacity:0.5;
+	top: 138px;
+	left: 0px;
+	width: 273px;
+	height: 884px;
+	background:rgba(212,215,220,1);
+}
+
+#group_2_ek3 {
+	top: 392px;
+	left: 62px;
+	width: 150px;
+	height: 60px;
+}
+
+#rectangle_3_ek6 {
+	top: 0px;
+	left: 0px;
+	width: 140px;
+	height: 60px;
+	background:rgba(93.79,107.15,227.37,1);
+}
+
+
+#profile_ek6 {
+	top: 5px;
+	left: 18px;
+	width: 157px;
+	height: 78px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 40px;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#rectangle_7_ek6 {
+	top: 560px;
+	left: 62px;
+	width: 140px;
+	height: 60px;
+	background:rgba(212,215,220,1);
+}
+
+
+#course_ek6 {
+	top: 568px;
+	left: 64px;
+	width: 163px;
+	height: 73px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 40px;
+	text-align: left;
+	color:#000000;
+}
+
+#group_1_ek3 {
+	top: 322px;
+	left: 398px;
+	width: 769px;
+	height: 70px;
+}
+
+#rectangle_14_ek13 {
+	opacity:0.5;
+	top: 0px;
+	left: 0px;
+	width: 769px;
+	height: 70px;
+	background:rgba(241,243,246,1);
+}
+
+
+#rectangle_14_ek14 {
+	opacity:0.5;
+	top: 840px;
+	left: 735px;
+	width: 111.21px;
+	height: 73px;
+	background:rgba(212,215,220,1);
+}
+
+
+#save_ek1 {
+	top: 840px;
+	left: 735px;
+	width: 141.21px;
+	height: 108px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 50px;
+	text-align: left;
+	color:#000000;
+}
+
+#group_4_ek3 {
+	top: 452px;
+	left: 398px;
+	width: 769px;
+	height: 70px;
+}
+
+#rectangle_14_ek15 {
+	opacity:0.5;
+	top: 0px;
+	left: 0px;
+	width: 769px;
+	height: 70px;
+	background:rgba(255,255,255,1);
+}
+
+
+#edit_professor {
+	top: 168px;
+	left: 522px;
+	width: 583px;
+	height: 151px;
+	overflow: hidden;
+	font-family: Itim;
+	font-size: 80px;
+	text-align: left;
+	color:#000000;
+}
+
+
+#_image_1_ek6 {
+	top: 13px;
+	left: 61px;
+	width: 70px;
+	height: 83px;
+}
+
+
+#rectangle_11_ek4 {
+	top: 728px;
+	left: 65px;
+	width: 134px;
+	height: 62px;
+	background:rgba(212,215,220,1);
+}
+
+
+#list_ek2 {
+	top: 728px;
+	left: 103px;
+	width: 148px;
+	height: 90px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 40px;
+	text-align: left;
+	color:#000000;
+}
+
+#page_prof_login_ek1 {
+	top: 0px;
+	left: 0px;
+	width: 1440px;
+	height: 1024px;
+}
+
+#_bg__prof_login_ek2 {
+	top: 0px;
+	left: 0px;
+	width: 1440px;
+	height: 1024px;
+	background:rgba(255,255,255,1);
+}
+
+
+#download__8__1_ek7 {
+	top: 0px;
+	left: 0px;
+	width: 1440px;
+	height: 1024px;
+}
+
+
+#rectangle_4_ek1 {
+	opacity:0.5;
+	top: 790px;
+	left: 304px;
+	width: 1067px;
+	height: 234px;
+	-ms-border-radius: 76px;
+	-o-border-radius: 76px;
+	-moz-border-radius: 76px;
+	-webkit-border-radius: 76px;
+	border-radius: 76px;
+	background:rgba(212,215,220,1);
+}
+
+
+#rectangle_6_ek7 {
+	opacity:0.5;
+	top: 0px;
+	left: 0px;
+	width: 1440px;
+	height: 109px;
+	background:rgba(212,215,220,1);
+}
+
+
+#logout_ek7 {
+	top: 0px;
+	left: 1295px;
+	width: 195px;
+	height: 102px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 40px;
+	text-align: left;
+	color:#000000;
+}
+
+
+#rectangle_5_ek1 {
+	opacity:0.8;
+	top: 847px;
+	left: 381px;
+	width: 914px;
+	height: 91px;
+	background:rgba(255,255,255,1);
+}
+
+
+#welcome_to_the_most_basic_database_ek1 {
+	top: 860px;
+	left: 421px;
+	width: 904px;
+	height: 99px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 50px;
+	text-align: left;
+	color:#000000;
+}
+
+
+#rectangle_10_ek7 {
+	opacity:0.5;
+	top: 138px;
+	left: 0px;
+	width: 273px;
+	height: 884px;
+	background:rgba(212,215,220,1);
+}
+
+
+#rectangle_3_ek7 {
+	top: 392px;
+	left: 61px;
+	width: 140px;
+	height: 60px;
+	background:rgba(212,215,220,1);
+}
+
+
+#_profile_ek7 {
+	top: 397px;
+	left: 79px;
+	width: 157px;
+	height: 78px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 40px;
+	text-align: left;
+	color:#000000;
+}
+
+
+#rectangle_7_ek7 {
+	top: 550px;
+	left: 61px;
+	width: 140px;
+	height: 60px;
+	background:rgba(212,215,220,1);
+}
+
+
+#rectangle_11_ek5 {
+	top: 728px;
+	left: 67px;
+	width: 134px;
+	height: 62px;
+	background:rgba(212,215,220,1);
+}
+
+
+#list_ek3 {
+	top: 728px;
+	left: 105px;
+	width: 148px;
+	height: 90px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 40px;
+	text-align: left;
+	color:#000000;
+}
+
+
+#_course_ek7 {
+	top: 558px;
+	left: 63px;
+	width: 163px;
+	height: 73px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 40px;
+	text-align: left;
+	color:#000000;
+}
+
+
+#image_1_ek7 {
+	top: 13px;
+	left: 61px;
+	width: 70px;
+	height: 83px;
+}
+
+#page_prof_student_list_ek1 {
+	top: 0px;
+	left: 0px;
+	width: 1442px;
+	height: 1024px;
+}
+
+#_bg__prof_student_list_ek2 {
+	top: 0px;
+	left: 0px;
+	width: 1442px;
+	height: 1024px;
+	background:rgba(255,255,255,1);
+}
+
+
+#download__8__1_ek8 {
+	top: 0px;
+	left: 0px;
+	width: 1440px;
+	height: 1024px;
+}
+
+
+#rectangle_6_ek8 {
+	opacity:0.5;
+	top: 0px;
+	left: 0px;
+	width: 1440px;
+	height: 109px;
+	background:rgba(212,215,220,1);
+}
+
+
+#logout_ek8 {
+	top: 0px;
+	left: 1295px;
+	width: 195px;
+	height: 102px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 40px;
+	text-align: left;
+	color:#000000;
+}
+
+
+#rectangle_10_ek8 {
+	opacity:0.5;
+	top: 138px;
+	left: 0px;
+	width: 273px;
+	height: 884px;
+	background:rgba(212,215,220,1);
+}
+
+
+#_rectangle_3_ek8 {
+	top: 392px;
+	left: 61px;
+	width: 140px;
+	height: 60px;
+	background:rgba(212,215,220,1);
+}
+
+
+#profile_ek8 {
+	top: 397px;
+	left: 79px;
+	width: 157px;
+	height: 78px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 40px;
+	text-align: left;
+	color:#000000;
+}
+
+
+#rectangle_7_ek8 {
+	top: 550px;
+	left: 61px;
+	width: 140px;
+	height: 60px;
+	background:rgba(212,215,220,1);
+}
+
+#group_13_ek4 {
+	top: 728px;
+	left: 67px;
+	width: 161px;
+	height: 62px;
+}
+
+#rectangle_11_ek6 {
+	top: 0px;
+	left: 0px;
+	width: 134px;
+	height: 62px;
+	background:rgba(94,107,227,1);
+}
+
+
+#list_ek4 {
+	top: 0px;
+	left: 38px;
+	width: 148px;
+	height: 90px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 40px;
+	text-align: left;
+	color:#FFF9F9;
+}
+
+
+#_course_ek8 {
+	top: 558px;
+	left: 63px;
+	width: 163px;
+	height: 73px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 40px;
+	text-align: left;
+	color:#000000;
+}
+
+
+#_image_1_ek8 {
+	top: 13px;
+	left: 61px;
+	width: 70px;
+	height: 83px;
+}
+
+
+#rectangle_15 {
+	top: 319px;
+	left: 305px;
+	width: 1070px;
+	height: 634px;
+	-ms-border-radius: 26px;
+	-o-border-radius: 26px;
+	-moz-border-radius: 26px;
+	-webkit-border-radius: 26px;
+	border-radius: 26px;
+	border: 1px solid #000000;
+	-ms-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	-o-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	-webkit-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	-moz-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	background:rgba(255,255,255,1);
+}
+
+
+#vector_4 {
+	top: 321px;
+	left: 860px;
+	width: 341px;
+	height: 625px;
+}
+
+
+#vector_3 {
+	top: 415.5px;
+	left: 313.5px;
+	width: 1059.5px;
+	height: 0px;
+}
+
+
+#vector_1 {
+	top: 318px;
+	left: 574.5px;
+	width: 0px;
+	height: 627.5px;
+}
+
+#page_prof_student_list_ek4 {
+	top: 0px;
+	left: 0px;
+	width: 1442px;
+	height: 1024px;
+}
+
+#_bg__prof_student_list_ek5 {
+	top: 0px;
+	left: 0px;
+	width: 1442px;
+	height: 1024px;
+	background:rgba(255,255,255,1);
+}
+
+
+#download__8__1_ek9 {
+	top: 0px;
+	left: 0px;
+	width: 1440px;
+	height: 1024px;
+}
+
+
+#rectangle_6_ek9 {
+	opacity:0.5;
+	top: 0px;
+	left: 0px;
+	width: 1440px;
+	height: 109px;
+	background:rgba(212,215,220,1);
+}
+
+
+#logout_ek9 {
+	top: 0px;
+	left: 1295px;
+	width: 195px;
+	height: 102px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 40px;
+	text-align: left;
+	color:#000000;
+}
+
+
+#rectangle_10_ek9 {
+	opacity:0.5;
+	top: 138px;
+	left: 0px;
+	width: 273px;
+	height: 884px;
+	background:rgba(212,215,220,1);
+}
+
+
+#rectangle_7_ek9 {
+	top: 520px;
+	left: 64px;
+	width: 140px;
+	height: 60px;
+	background:rgba(212,215,220,1);
+}
+
+
+#course_ek9 {
+	top: 527px;
+	left: 66px;
+	width: 163px;
+	height: 73px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 40px;
+	text-align: left;
+	color:#000000;
+}
+
+
+#_image_1_ek9 {
+	top: 13px;
+	left: 61px;
+	width: 70px;
+	height: 83px;
+}
+
+
+#rectangle_15_ek1 {
+	top: 319px;
+	left: 305px;
+	width: 1070px;
+	height: 634px;
+	-ms-border-radius: 26px;
+	-o-border-radius: 26px;
+	-moz-border-radius: 26px;
+	-webkit-border-radius: 26px;
+	border-radius: 26px;
+	border: 1px solid #000000;
+	-ms-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	-o-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	-webkit-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	-moz-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	background:rgba(255,255,255,1);
+}
+
+
+#vector_4_ek1 {
+	top: 321px;
+	left: 860px;
+	width: 341px;
+	height: 625px;
+}
+
+
+#vector_3_ek1 {
+	top: 415.5px;
+	left: 313.5px;
+	width: 1059.5px;
+	height: 0px;
+}
+
+
+#vector_1_ek1 {
+	top: 318px;
+	left: 574.5px;
+	width: 0px;
+	height: 627.5px;
+}
+
+#group_16 {
+	top: 382px;
+	left: 50px;
+	width: 162px;
+	height: 60px;
+}
+
+#rectangle_3_ek9 {
+	top: 0px;
+	left: 12px;
+	width: 140px;
+	height: 60px;
+	background:rgba(94,107,227,1);
+}
+
+
+#student {
+	top: 7px;
+	left: 0px;
+	width: 187px;
+	height: 70px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 40px;
+	text-align: left;
+	color:#FFF9F9;
+}
+
+
+#rectangle_13 {
+	top: 635px;
+	left: 60px;
+	width: 140px;
+	height: 53px;
+	background:rgba(212,215,220,1);
+}
+
+
+#prof {
+	top: 635px;
+	left: 95px;
+	width: 138px;
+	height: 67px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 40px;
+	text-align: left;
+	color:#000000;
+}
+
+
+#rectangle_12 {
+	top: 795px;
+	left: 62px;
+	width: 140px;
+	height: 67px;
+	background:rgba(212,215,220,1);
+}
+
+
+#dept {
+	top: 810px;
+	left: 89px;
+	width: 156px;
+	height: 80px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 40px;
+	text-align: left;
+	color:#000000;
+}
+
+
+#student_list {
+	top: 166px;
+	left: 591px;
+	width: 583px;
+	height: 151px;
+	overflow: hidden;
+	font-family: Itim;
+	font-size: 80px;
+	text-align: left;
+	color:#000000;
+}
+
+#page_prof_list_ek1 {
+	top: 0px;
+	left: 0px;
+	width: 1442px;
+	height: 1024px;
+}
+
+#_bg__prof_list_ek2 {
+	top: 0px;
+	left: 0px;
+	width: 1442px;
+	height: 1024px;
+	background:rgba(255,255,255,1);
+}
+
+
+#download__8__1_ek10 {
+	top: 0px;
+	left: 0px;
+	width: 1440px;
+	height: 1024px;
+}
+
+
+#rectangle_6_ek10 {
+	opacity:0.5;
+	top: 0px;
+	left: 0px;
+	width: 1440px;
+	height: 109px;
+	background:rgba(212,215,220,1);
+}
+
+
+#logout_ek10 {
+	top: 0px;
+	left: 1295px;
+	width: 195px;
+	height: 102px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 40px;
+	text-align: left;
+	color:#000000;
+}
+
+
+#rectangle_10_ek10 {
+	opacity:0.5;
+	top: 138px;
+	left: 0px;
+	width: 273px;
+	height: 884px;
+	background:rgba(212,215,220,1);
+}
+
+
+#rectangle_7_ek10 {
+	top: 520px;
+	left: 64px;
+	width: 140px;
+	height: 60px;
+	background:rgba(212,215,220,1);
+}
+
+
+#course_ek10 {
+	top: 527px;
+	left: 66px;
+	width: 163px;
+	height: 73px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 40px;
+	text-align: left;
+	color:#000000;
+}
+
+
+#_image_1_ek10 {
+	top: 13px;
+	left: 61px;
+	width: 70px;
+	height: 83px;
+}
+
+
+#rectangle_15_ek2 {
+	top: 319px;
+	left: 305px;
+	width: 1070px;
+	height: 634px;
+	-ms-border-radius: 26px;
+	-o-border-radius: 26px;
+	-moz-border-radius: 26px;
+	-webkit-border-radius: 26px;
+	border-radius: 26px;
+	border: 1px solid #000000;
+	-ms-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	-o-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	-webkit-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	-moz-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	background:rgba(255,255,255,1);
+}
+
+
+#vector_4_ek2 {
+	top: 321px;
+	left: 860px;
+	width: 341px;
+	height: 625px;
+}
+
+
+#vector_3_ek2 {
+	top: 415.5px;
+	left: 313.5px;
+	width: 1059.5px;
+	height: 0px;
+}
+
+
+#vector_1_ek2 {
+	top: 318px;
+	left: 574.5px;
+	width: 0px;
+	height: 627.5px;
+}
+
+
+#rectangle_3_ek10 {
+	top: 382px;
+	left: 62px;
+	width: 140px;
+	height: 60px;
+	background:rgba(212,215,220,1);
+}
+
+
+#student_ek1 {
+	top: 382px;
+	left: 64px;
+	width: 187px;
+	height: 70px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 40px;
+	text-align: left;
+	color:#000000;
+}
+
+#group_15_ek1 {
+	top: 635px;
+	left: 60px;
+	width: 148px;
+	height: 53px;
+}
+
+#rectangle_13_ek1 {
+	top: 0px;
+	left: 0px;
+	width: 140px;
+	height: 53px;
+	background:rgba(94,107,227,1);
+}
+
+
+#prof_ek1 {
+	top: 0px;
+	left: 35px;
+	width: 138px;
+	height: 67px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 40px;
+	text-align: left;
+	color:#FFF9F9;
+}
+
+
+#rectangle_12_ek1 {
+	top: 795px;
+	left: 62px;
+	width: 140px;
+	height: 67px;
+	background:rgba(212,215,220,1);
+}
+
+
+#dept_ek1 {
+	top: 810px;
+	left: 89px;
+	width: 156px;
+	height: 80px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 40px;
+	text-align: left;
+	color:#000000;
+}
+
+
+#professor_list {
+	top: 166px;
+	left: 591px;
+	width: 583px;
+	height: 151px;
+	overflow: hidden;
+	font-family: Itim;
+	font-size: 80px;
+	text-align: left;
+	color:#000000;
+}
+
+#page_admin_login_ek1 {
+	top: 0px;
+	left: 0px;
+	width: 1440px;
+	height: 1024px;
+}
+
+#_bg__admin_login_ek2 {
+	top: 0px;
+	left: 0px;
+	width: 1440px;
+	height: 1024px;
+	background:rgba(255,255,255,1);
+}
+
+
+#download__8__1_ek11 {
+	top: 0px;
+	left: 0px;
+	width: 1440px;
+	height: 1024px;
+}
+
+
+#rectangle_4_ek2 {
+	opacity:0.5;
+	top: 790px;
+	left: 304px;
+	width: 1067px;
+	height: 234px;
+	-ms-border-radius: 76px;
+	-o-border-radius: 76px;
+	-moz-border-radius: 76px;
+	-webkit-border-radius: 76px;
+	border-radius: 76px;
+	background:rgba(212,215,220,1);
+}
+
+
+#rectangle_5_ek2 {
+	opacity:0.8;
+	top: 847px;
+	left: 381px;
+	width: 914px;
+	height: 91px;
+	background:rgba(255,255,255,1);
+}
+
+
+#welcome_to_the_most_basic_database_ek2 {
+	top: 860px;
+	left: 421px;
+	width: 904px;
+	height: 99px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 50px;
+	text-align: left;
+	color:#000000;
+}
+
+
+#_rectangle_10_ek11 {
+	opacity:0.5;
+	top: 140px;
+	left: 0px;
+	width: 273px;
+	height: 884px;
+	background:rgba(212,215,220,1);
+}
+
+
+#rectangle_3_ek11 {
+	top: 392px;
+	left: 61px;
+	width: 140px;
+	height: 60px;
+	background:rgba(212,215,220,1);
+}
+
+
+#student_ek2 {
+	top: 399px;
+	left: 49px;
+	width: 187px;
+	height: 70px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 40px;
+	text-align: left;
+	color:#000000;
+}
+
+
+#rectangle_7_ek11 {
+	top: 550px;
+	left: 61px;
+	width: 140px;
+	height: 60px;
+	background:rgba(212,215,220,1);
+}
+
+
+#rectangle_12_ek2 {
+	top: 813px;
+	left: 63px;
+	width: 140px;
+	height: 67px;
+	background:rgba(212,215,220,1);
+}
+
+
+#dept_ek2 {
+	top: 828px;
+	left: 90px;
+	width: 156px;
+	height: 80px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 40px;
+	text-align: left;
+	color:#000000;
+}
+
+
+#rectangle_13_ek2 {
+	top: 695px;
+	left: 58px;
+	width: 140px;
+	height: 53px;
+	background:rgba(212,215,220,1);
+}
+
+
+#prof_ek2 {
+	top: 695px;
+	left: 93px;
+	width: 138px;
+	height: 67px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 40px;
+	text-align: left;
+	color:#000000;
+}
+
+
+#course_ek11 {
+	top: 558px;
+	left: 63px;
+	width: 163px;
+	height: 73px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 40px;
+	text-align: left;
+	color:#000000;
+}
+
+
+#rectangle_8 {
+	opacity:0.5;
+	top: -6px;
+	left: 0px;
+	width: 1440px;
+	height: 109px;
+	background:rgba(212,215,220,1);
+}
+
+
+#logout_ek11 {
+	top: 14px;
+	left: 1272px;
+	width: 223px;
+	height: 117px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 40px;
+	text-align: left;
+	color:#000000;
+}
+
+
+#image_1_ek11 {
+	top: 13px;
+	left: 61px;
+	width: 70px;
+	height: 83px;
+}
+
+
+#student_list_ek1 {
+	top: 1288px;
+	left: 8123px;
+	width: 583px;
+	height: 151px;
+	overflow: hidden;
+	font-family: Itim;
+	font-size: 80px;
+	text-align: left;
+	color:#000000;
+}
+
+#page_course_list_ek1 {
+	top: 0px;
+	left: 0px;
+	width: 1442px;
+	height: 1024px;
+}
+
+#_bg__course_list_ek2 {
+	top: 0px;
+	left: 0px;
+	width: 1442px;
+	height: 1024px;
+	background:rgba(255,255,255,1);
+}
+
+
+#download__8__1_ek12 {
+	top: 0px;
+	left: 0px;
+	width: 1440px;
+	height: 1024px;
+}
+
+
+#rectangle_6_ek11 {
+	opacity:0.5;
+	top: 0px;
+	left: 0px;
+	width: 1440px;
+	height: 109px;
+	background:rgba(212,215,220,1);
+}
+
+
+#logout_ek12 {
+	top: 0px;
+	left: 1295px;
+	width: 195px;
+	height: 102px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 40px;
+	text-align: left;
+	color:#000000;
+}
+
+
+#rectangle_10_ek12 {
+	opacity:0.5;
+	top: 138px;
+	left: 0px;
+	width: 273px;
+	height: 884px;
+	background:rgba(212,215,220,1);
+}
+
+
+#rectangle_12_ek3 {
+	top: 756px;
+	left: 38px;
+	width: 140px;
+	height: 67px;
+	background:rgba(212,215,220,1);
+}
+
+
+#dept_ek3 {
+	top: 771px;
+	left: 65px;
+	width: 156px;
+	height: 80px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 40px;
+	text-align: left;
+	color:#000000;
+}
+
+
+#rectangle_3_ek12 {
+	top: 386px;
+	left: 51px;
+	width: 140px;
+	height: 60px;
+	background:rgba(212,215,220,1);
+}
+
+
+#student_ek3 {
+	top: 393px;
+	left: 39px;
+	width: 187px;
+	height: 70px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 40px;
+	text-align: left;
+	color:#000000;
+}
+
+
+#rectangle_3_ek13 {
+	top: 626px;
+	left: 38px;
+	width: 140px;
+	height: 60px;
+	background:rgba(212,215,220,1);
+}
+
+#group_20 {
+	top: 868px;
+	left: 797px;
+	width: 140px;
+	height: 60px;
+}
+
+#rectangle_11_ek7 {
+	top: 0px;
+	left: 0px;
+	width: 140px;
+	height: 60px;
+	background:rgba(212,215,220,1);
+}
+
+
+#add {
+	top: 11px;
+	left: 35px;
+	width: 112px;
+	height: 60px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 40px;
+	text-align: left;
+	color:#000000;
+}
+
+
+#_prof_ek3 {
+	top: 636px;
+	left: 69px;
+	width: 157px;
+	height: 78px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 40px;
+	text-align: left;
+	color:#000000;
+}
+
+#group_18 {
+	top: 506px;
+	left: 50px;
+	width: 144px;
+	height: 60px;
+}
+
+#rectangle_7_ek12 {
+	top: 0px;
+	left: 0px;
+	width: 140px;
+	height: 60px;
+	background:rgba(94,107,227,1);
+}
+
+
+#course_ek12 {
+	top: 7px;
+	left: 6px;
+	width: 163px;
+	height: 73px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 40px;
+	text-align: left;
+	color:#FFF9F9;
+}
+
+
+#_image_1_ek12 {
+	top: 13px;
+	left: 61px;
+	width: 70px;
+	height: 83px;
+}
+
+#group_19 {
+	top: 284px;
+	left: 312px;
+	width: 1068px;
+	height: 506px;
+}
+
+#rectangle_15_ek3 {
+	top: 1px;
+	left: 0px;
+	width: 1070px;
+	height: 507.2px;
+	-ms-border-radius: 26px;
+	-o-border-radius: 26px;
+	-moz-border-radius: 26px;
+	-webkit-border-radius: 26px;
+	border-radius: 26px;
+	border: 1px solid #000000;
+	-ms-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	-o-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	-webkit-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	-moz-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	background:rgba(255,255,255,1);
+}
+
+
+#vector_4_ek3 {
+	top: 2px;
+	left: 555px;
+	width: 341px;
+	height: 499.61px;
+}
+
+
+#vector_3_ek3 {
+	top: 78px;
+	left: 9px;
+	width: 1059.5px;
+	height: 0px;
+}
+
+
+#vector_1_ek3 {
+	top: 0px;
+	left: 270px;
+	width: 0px;
+	height: 501.6px;
+}
+
+
+#actions {
+	top: 25px;
+	left: 922px;
+	width: 161px;
+	height: 65.57px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 40px;
+	text-align: left;
+	color:#000000;
+}
+
+#page_dept_list_ek1 {
+	top: 0px;
+	left: 0px;
+	width: 1442px;
+	height: 1024px;
+}
+
+#_bg__dept_list_ek2 {
+	top: 0px;
+	left: 0px;
+	width: 1442px;
+	height: 1024px;
+	background:rgba(255,255,255,1);
+}
+
+
+#download__8__1_ek13 {
+	top: 0px;
+	left: 0px;
+	width: 1440px;
+	height: 1024px;
+}
+
+
+#rectangle_6_ek12 {
+	opacity:0.5;
+	top: 0px;
+	left: 0px;
+	width: 1440px;
+	height: 109px;
+	background:rgba(212,215,220,1);
+}
+
+
+#logout_ek13 {
+	top: 0px;
+	left: 1295px;
+	width: 195px;
+	height: 102px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 40px;
+	text-align: left;
+	color:#000000;
+}
+
+
+#rectangle_10_ek13 {
+	opacity:0.5;
+	top: 138px;
+	left: 0px;
+	width: 273px;
+	height: 884px;
+	background:rgba(212,215,220,1);
+}
+
+#group_14_ek4 {
+	top: 756px;
+	left: 38px;
+	width: 158px;
+	height: 67px;
+}
+
+#rectangle_12_ek4 {
+	top: 0px;
+	left: 0px;
+	width: 140px;
+	height: 67px;
+	background:rgba(94,107,227,1);
+}
+
+
+#dept_ek4 {
+	top: 15px;
+	left: 27px;
+	width: 156px;
+	height: 80px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 40px;
+	text-align: left;
+	color:#FFF9F9;
+}
+
+
+#rectangle_3_ek14 {
+	top: 386px;
+	left: 51px;
+	width: 140px;
+	height: 60px;
+	background:rgba(212,215,220,1);
+}
+
+
+#student_ek4 {
+	top: 393px;
+	left: 39px;
+	width: 187px;
+	height: 70px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 40px;
+	text-align: left;
+	color:#000000;
+}
+
+
+#rectangle_3_ek15 {
+	top: 626px;
+	left: 38px;
+	width: 140px;
+	height: 60px;
+	background:rgba(212,215,220,1);
+}
+
+#group_20_ek1 {
+	top: 868px;
+	left: 797px;
+	width: 140px;
+	height: 60px;
+}
+
+#rectangle_11_ek8 {
+	top: 0px;
+	left: 0px;
+	width: 140px;
+	height: 60px;
+	background:rgba(212,215,220,1);
+}
+
+
+#add_ek1 {
+	top: 11px;
+	left: 35px;
+	width: 112px;
+	height: 60px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 40px;
+	text-align: left;
+	color:#000000;
+}
+
+
+#_prof_ek4 {
+	top: 636px;
+	left: 69px;
+	width: 157px;
+	height: 78px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 40px;
+	text-align: left;
+	color:#000000;
+}
+
+
+#rectangle_7_ek13 {
+	top: 506px;
+	left: 50px;
+	width: 140px;
+	height: 60px;
+	background:rgba(212,215,220,1);
+}
+
+
+#course_ek13 {
+	top: 513px;
+	left: 56px;
+	width: 163px;
+	height: 73px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 40px;
+	text-align: left;
+	color:#000000;
+}
+
+
+#_image_1_ek13 {
+	top: 13px;
+	left: 61px;
+	width: 70px;
+	height: 83px;
+}
+
+#group_19_ek1 {
+	top: 284px;
+	left: 312px;
+	width: 1068px;
+	height: 506px;
+}
+
+#rectangle_15_ek4 {
+	top: 1px;
+	left: 0px;
+	width: 1070px;
+	height: 507.2px;
+	-ms-border-radius: 26px;
+	-o-border-radius: 26px;
+	-moz-border-radius: 26px;
+	-webkit-border-radius: 26px;
+	border-radius: 26px;
+	border: 1px solid #000000;
+	-ms-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	-o-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	-webkit-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	-moz-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	background:rgba(255,255,255,1);
+}
+
+
+#vector_4_ek4 {
+	top: 2px;
+	left: 555px;
+	width: 341px;
+	height: 499.61px;
+}
+
+
+#vector_3_ek4 {
+	top: 78px;
+	left: 9px;
+	width: 1059.5px;
+	height: 0px;
+}
+
+
+#vector_1_ek4 {
+	top: 0px;
+	left: 270px;
+	width: 0px;
+	height: 501.6px;
+}
+
+
+#actions_ek1 {
+	top: 25px;
+	left: 922px;
+	width: 161px;
+	height: 65.57px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 40px;
+	text-align: left;
+	color:#000000;
+}
+
+
+#department_list {
+	top: 138px;
+	left: 590px;
+	width: 702px;
+	height: 177px;
+	overflow: hidden;
+	font-family: Itim;
+	font-size: 80px;
+	text-align: left;
+	color:#000000;
+}
+
+
+#course_list_ek3 {
+	top: 3035px;
+	left: 3886px;
+	width: 587px;
+	height: 152px;
+	overflow: hidden;
+	font-family: Itim;
+	font-size: 80px;
+	text-align: left;
+	color:#000000;
+}
+
+
+
+/* Add your custom CSS here */

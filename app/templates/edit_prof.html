@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home</title>
+    <link rel="shortcut icon" type="image/png" href="{{url_for('static',filename='panimalay-196x196.png')}}">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+	  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap">
+
+	  <style type="text/css">
+        *{margin: 0;}
+
+		body{
+            background: url(https://images.unsplash.com/photo-1508615070457-7baeba4003ab?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=800) no-repeat;
+            background-size: cover;
+            height: 100vh;
+            background-position: left;
+        }
+
+        h1 {
+        	text-align: center;
+            margin: 0;
+            padding: 0;
+            font-family: 'Franklin Gothic Medium';
+            font-weight: bold;
+
+            color: white;
+            position:absolute;
+            top: 12%;
+            left: 50%;
+            transform: translateX(-50%) translateY(-50%);
+        }
+
+
+body{margin-top:0px;}
+
+
+
+    </style>
+  </head>
+{% extends "layout.html" %}
+  {% if title %}
+    <title>StudentDB - {{ title }}</title>
+  {% else %}
+    <title>Student Database</title>
+  {% endif %}
+	{% block body %}
+	<section class="ftco-section">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-md-6 text-center mb-5">
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<h2 class="heading-section">Welcome Professor</h2>
+				</div>
+			</div>
+			<div class="row justify-content-center">
+				<div class="col-md-9 col-lg-6">
+					<div class="login-wrap">
+		      	<h3 class="mb-4 text-center">Edit your Profile</h3>
+						<div class="card-body">
+					{% for message in get_flashed_messages()%}
+            		<div class="alert alert-warning alert-dismissible fade show" role="alert">
+              			<h2><strong>{{message}}</strong></h2>
+              			<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    						<span aria-hidden="true">&times;</span>
+  						</button>
+            		</div>
+          			{% endfor%}
+				<form action="" method="POST" style="text-align: justify-all;">
+					<h3 style="text-align: center;">Profile Information</h3>
+                    {% for professor in profDetails%}
+					<label>Full Name</label>
+					<div class="input-group">
+						<input class="form-control" type="text" name="fname" value="{{professor[1] }}" placeholder="first name" required>
+						<input class="form-control" type="text" name="lname" value="{{professor[2] }}" placeholder="last name" required>
+					</div>
+					<br>
+                    <br>
+                            <b>Previous Handled Course: {{professor[4]}}</b>
+					<br>
+					<br>
+					<input class="btn btn-lg btn-primary btn-block" type="submit" value="Submit">
+                    {%endfor%}
+			</form>
+							<br>
+
+		<form class="form-signin" method="GET" action="/prof_profile/{{ user_id }}">
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Back</button>
+        </form>
+  </div>
+		</div>
+	        </div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<script src="static/js2/jquery.min.js"></script>
+  <script src="static/js2/popper.js"></script>
+  <script src="static/js2/bootstrap.min.js"></script>
+  <script src="static/js2/main.js"></script>
+
+{% endblock %}

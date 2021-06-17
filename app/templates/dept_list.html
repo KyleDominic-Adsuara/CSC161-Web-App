@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home</title>
+    <link rel="shortcut icon" type="image/png" href="{{url_for('static',filename='panimalay-196x196.png')}}">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+	  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap">
+
+	  <style type="text/css">
+        *{margin: 0;}
+
+		body{
+            background: url(https://images.unsplash.com/photo-1508615070457-7baeba4003ab?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=800) no-repeat;
+            background-size: cover;
+            height: 100vh;
+            background-position: left;
+        }
+
+        h1 {
+        	text-align: center;
+            margin: 0;
+            padding: 0;
+            font-family: 'Franklin Gothic Medium';
+            font-weight: bold;
+
+            color: white;
+            position:absolute;
+            top: 12%;
+            left: 50%;
+            transform: translateX(-50%) translateY(-50%);
+        }
+
+
+body{margin-top:0px;}
+
+
+
+    </style>
+  </head>
+{% extends "layout.html" %}
+  {% if title %}
+    <title>StudentDB - {{ title }}</title>
+  {% else %}
+    <title>Student Database</title>
+  {% endif %}
+
+{% block body %}
+		<table class="table table-striped">
+                <tr>
+              <th>Code</th>
+              <th>Name</th>
+
+
+          </tr>
+                {% for row in deptDetails %}
+                <tr>
+                    <td>{{row[0]}}</td>
+                    <td>{{row[1]}}</td>
+
+
+                    <td width = "130">
+                        <a href="/edit_department/{{ row[0] }}" class="btn btn-secondary btn-sn">edit</a>
+                        <a href="/delete_department/{{ row[0] }}" class="btn btn-danger btn-delete btn-sn">delete</a>
+                    </td>
+                </tr>
+                    {% endfor %}
+
+            </table>
+
+        </form>
+<div class="container">
+      <div class="panel-body">
+        <div class="center col-lg-12" style="text-align: center;">
+        <form class="form-signin", method="GET", action="/add_department">
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Add Dept</button>
+        </form>
+
+            <br>
+
+		<form class="form-signin", method="GET", action="/login">
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Back</button>
+
+      </form>
+        </div>
+      </div>
+  </div>
+{% endblock %}
